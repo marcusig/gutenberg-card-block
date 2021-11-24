@@ -1,0 +1,30 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+ .editor-styles-wrapper figure.wp-block-image.fact {
+	aspect-ratio: 14/9;
+	overflow: hidden;
+	position: relative;
+
+	img {
+		display: block;
+		object-fit: cover;
+		object-position: center center;
+	}
+
+	figcaption {
+		position: absolute;
+		bottom: 2em;
+		left: 2em;
+		background: #000;
+		padding: .9em 1.2em;
+		line-height: 1;
+		color: #FFF;
+		text-transform: uppercase;
+	}
+
+}

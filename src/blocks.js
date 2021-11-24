@@ -9,4 +9,7 @@
  * Webpack is compiling as the input file.
  */
 
-import './block/block.js';
+import './card/block.js';
+import './team/team-block.js';
+import './connected-issue/connected-issue.js';
+import './know-the-facts/know-the-facts--fact.js';

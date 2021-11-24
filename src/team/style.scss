@@ -1,0 +1,51 @@
+.cease-team.wp-block-columns {
+    flex-wrap: wrap;
+
+	.wp-block-column.team-member {
+
+		width: calc(25% - 20px);
+		flex: none;
+		margin: 10px;
+
+		&:nth-child(4n+1) {
+			margin-left: 0;
+		}
+
+		.team-member--photo {
+			aspect-ratio: 1/1;
+			overflow: hidden;
+			img {
+				object-fit: cover;
+				width: 100%;
+				object-position: center;
+			}
+		}
+		.team-member--text {
+			position: relative;
+			padding-top: 1em;
+
+			a.read-more {
+				position: absolute;
+				top: 0.7em;
+				right: 0;
+				transition: .2s all;
+				opacity: 0;
+				visibility: hidden;
+			}
+
+		}
+		&:hover {
+			.team-member--text a.read-more {
+				top: 1.7em;
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+		
+
+		h4 {
+			font-size: 1.1rem;
+			margin-bottom: 0.2em;
+		}
+	}
+}

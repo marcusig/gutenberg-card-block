@@ -1,10 +1,9 @@
 <?php
 /**
- * Plugin Name: Cards Block
- * Plugin URI: https://github.com/sergeycode/sc-cards
- * Description: Cards Block — Block for Cards Layout.
- * Author: sergeycode
- * Author URI: http://sergeycode.github.io
+ * Plugin Name: Cease Blocks
+ * Description: Variety of blocks done for Cease, forked from https://github.com/sergeycode/sc-cards
+ * Author: mklacroix,sergeycode
+ * Author URI: https://mklacroix.com
  * Version: 1.0.0
  * License: GPL2+
  * License URI: https://www.gnu.org/licenses/gpl-2.0.txt

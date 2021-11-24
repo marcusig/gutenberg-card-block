@@ -1,0 +1,52 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-cgb-block-sc-cards {
+	.card {
+		&-link {
+			display: block;
+			position: relative;
+			text-decoration: none !important;
+			&:hover,
+			&:focus {
+				text-decoration: none;
+			}
+			&-image {
+				display: block;
+				width: 100%;
+				background-color: #FFF;
+				// height: 13.5rem;
+				// object-fit: cover;
+				// transition: 0.4s ease-in-out;
+				// @include respond-to('md') {
+				// 	height: 8.8125rem;
+				// }
+				// @include respond-to('lg') {
+				// 	height: 13.5rem;
+				// }
+				// @include respond-to('xl') {
+				// 	height: 14.6875rem;
+				// }
+			}
+			
+			&-caption {
+				background: var(--linkInitialColor);
+				text-transform: uppercase;
+				color: var(--color);
+				font-family: var(--cease-sansserif);
+				font-weight: 700;
+				padding: 1em;
+				line-height: 1.2;
+				@include respond-to('md') {
+					font-size: 0.875rem;
+				}
+				@include respond-to('lg') {
+					font-size: 1rem;
+				}
+			}
+		}
+	}
+}

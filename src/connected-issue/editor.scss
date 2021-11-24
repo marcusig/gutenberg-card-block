@@ -1,0 +1,29 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+ .editor-styles-wrapper .connected-issue {
+    border: 1px solid;
+	h6 {
+		margin: 0;
+		--fontSize: 0.6rem;
+		--textTransform: uppercase;
+		--fontWeight: 400;
+		padding: 5px;
+	}
+	.block-editor-rich-text__editable.rich-text {
+		margin-left: 25px;
+		margin-bottom: 25px;
+	}
+	> .components-base-control {
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+	}
+	fieldset.block-editor-link-control__settings {
+		display: none;
+	}
+}
