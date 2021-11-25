@@ -1,6 +1,12 @@
-## WordPress Gutenberg Card Block
+## WordPress Gutenberg Blocks for cease.org.uk
 
-This is my first Gutenberg block. Works with WordPress 5.xx
+Forked from sergeycode/gutenberg-card-block
+
+Now contains 4 block types:
+- card
+- connected issues
+- know the facts
+- team
 
 This project was bootstrapped with [Create Guten Block](https://github.com/ahmadawais/create-guten-block).
 
